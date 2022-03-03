@@ -1,0 +1,60 @@
+header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/header.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+body{
+    background-image: url(../img/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.negro-transparente{
+    background-color: hsla(0, 0%, 0%, 0.600);
+}
+.medio{
+    font-size: 20px ;
+}
+.containertipos .card{
+    background-color: transparent;
+    padding-left: 17%;
+    padding-right: 17%;
+    border: white;
+    border-radius: 20px;
+    border-style: outset;
+    color: white;
+    
+}
+.cardtexto{
+    font-size: large;
+}
+.containertipos p img{
+    width: 20%;
+    height: 35%;
+}
+.containerpokemon .card{
+    background-color: transparent;
+    border: white;
+    border-radius: 20px;
+    border-style: outset;
+    color: white;
+    margin-top: 25px;
+    
+}
+.containerpokemon .card .card-body{
+    margin-left: 30px;
+}
+.bg-blancooscuro{
+    background-color: hsla(0, 0%, 100%, 0.3);
+    
+}
+footer{
+    background-position: right;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(150, 150, 150, 0.5), rgba(150, 150, 150, 0.5)), url(../img/Pokeball.png);
+}  
+.container{
+    background-color: rgba(0, 0, 0, 0.5);
+}
